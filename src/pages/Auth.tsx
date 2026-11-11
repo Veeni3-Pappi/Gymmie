@@ -20,7 +20,7 @@ export default function Auth() {
     return <Navigate to={from} replace />
   }
 
-  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => { 
     event.preventDefault()
     setSubmitting(true)
     setMessage('')
